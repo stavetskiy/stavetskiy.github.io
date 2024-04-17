@@ -1,0 +1,59 @@
+/* style.css */
+
+/* Загальні стилі */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E01625; /* Колір фону сторінки */
+    color: #F4616C; /* Колір тексту */
+}
+
+header, footer, main {
+    width: 80%; /* Ширина контенту сайту */
+    margin: 0 auto; /* Вирівнювання по центру */
+    padding: 20px; /* Поля */
+}
+
+a {
+    color: #963B42; /* Колір посилань */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стилі для заголовків */
+
+h1, h2 {
+    color: #78040D; /* Колір заголовків */
+}
+
+/* Стилі для навігації */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Стилі для біографії */
+
+#biography {
+    background-color: #F49BA2; /* Колір фону секції біографії */
+    padding: 20px;
+}
+
+/* Стилі для футера */
+
+footer {
+    text-align: center;
+    background-color: #F49BA2; /* Колір фону футера */
+    padding: 10px 0;
+}
